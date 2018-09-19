@@ -2,6 +2,6 @@
   (list 'let-do (array 'tmp x)
     (list 'IO.println
       (list 'ref
-        (list 'fmt "%s:%d:%d: %s" (file x) (line x) (column x) '&(str tmp))))
+        (list 'fmt "%s:%d:%d: %s %s" (file) (line) (column) '&(str tmp) (source-path))))
     'tmp)
 )
