@@ -1,4 +1,4 @@
-(defmacro prn [x]
+(defmacro p [x]
   (list 'let-do (array 'tmp x)
     (list 'IO.println
       (list 'ref
