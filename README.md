@@ -14,7 +14,7 @@ of where the call to `p` happens.
 ; before
 (if (= x 2)
   ; complicated thing
-  ; other complicated thind
+  ; other complicated thing
 )
 
 ; after
@@ -22,7 +22,7 @@ of where the call to `p` happens.
 (load "https://github.com/hellerve/p@master")
 (if (= (p x) 2)
   ; complicated thing
-  ; other complicated thind
+  ; other complicated thing
 )
 ```
 
