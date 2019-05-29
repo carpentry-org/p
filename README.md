@@ -1,5 +1,8 @@
 # p
 
+*Notice*: This is now part of the standard library as `Debug.trace` and should
+be treated as an archive for posteriority.
+
 A simple printing utility for Carp.
 
 The basic idea is this: you have a program. It doesn’t work. You’re too lazy to
@@ -19,7 +22,7 @@ of where the call to `p` happens.
 
 ; after
 ; will print something like "REPL:4:15: 3" if x is 3
-(load "https://github.com/hellerve/p@master")
+(load "https://github.com/carpentry-org/p@master")
 (if (= (p x) 2)
   ; complicated thing
   ; other complicated thing
