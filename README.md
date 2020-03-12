@@ -1,7 +1,7 @@
 # p
 
-*Notice*: This is now part of the standard library as `Debug.trace` and should
-be treated as an archive for posteriority.
+*Notice*: This is now part of the standard library as `Debug.trace` and this
+repository should be treated as an archive for posteriority.
 
 A simple printing utility for Carp.
 
